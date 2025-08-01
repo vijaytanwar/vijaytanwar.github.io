@@ -1,28 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Vijay Singh</title>
-    <style>
-        body {
-            margin: 0;
-            background: aliceblue;
-        }
-
-        h1 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-    </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Vijay Singh - Resume</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background: #f4f7f8;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  .container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 30px 40px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+  }
+  h1, h2, h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  h1 {
+    font-size: 2.8em;
+  }
+  h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+    margin-top: 40px;
+  }
+  h3 {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #2980b9;
+  }
+  p, li {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  ul {
+    list-style: disc inside;
+    margin-bottom: 20px;
+  }
+  a {
+    color: #2980b9;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .contact-info {
+    margin-bottom: 30px;
+    font-weight: 500;
+  }
+  .section {
+    margin-bottom: 40px;
+  }
+  .job, .project {
+    margin-bottom: 20px;
+  }
+  .job h4, .project h4 {
+    margin: 0 0 5px 0;
+    color: #34495e;
+  }
+  .job p, .project p {
+    margin: 0 0 6px 0;
+  }
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .skill-category {
+    flex: 1 1 45%;
+  }
+  .skill-category strong {
+    display: block;
+    margin-bottom: 6px;
+    color: #2980b9;
+  }
+  footer {
+    text-align: center;
+    color: #aaa;
+    font-size: 0.9em;
+    margin-top: 40px;
+  }
+</style>
 </head>
-
 <body>
-    <h1>hi!<br>I am Vijay Singh</h1>
-</body>
 
+<div class="container">
+
+  <header>
+    <h1>Vijay Singh</h1>
+    <h3>Frontend Application Developer</h3>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:vijaytamar@live.in">vijaytamar@live.in</a></p>
+      <p>Phone: +91-9953431903</p>
+    </div>
+  </header>
+
+  <section class="section" id="summary">
+    <h2>Professional Summary</h2>
+    <p>I am working in Android, Hybrid Application development, ReactJS, Redux, Saga, Node, HTML, CSS and JavaScript, and also learning AWS for deployment and cloud hosting.</p>
+    <p>I started my career as a .NET developer in 2011. Since then, I have worked on various projects requiring diverse expertise, enabling me to learn many technologies. I have around 9 years of full-time experience working on C#, Java, Android, ASP.NET MVC, Web API, RESTful services, WCF services, GoLang, MS SQL Server, and Entity Framework.</p>
+    <p>I also have knowledge of Google Firebase functions and hosting, and experience working on Hybrid as well as native Android applications.</p>
+  </section>
+
+  <section class="section" id="projects">
+    <h2>Projects & Contributions</h2>
+
+    <div class="project">
+      <h3>Interactive Launcher</h3>
+      <p>Contributed to this personal assistant and application launcher for Android, which supports voice and touch interactions using natural language processing to understand user commands like calls, SMS, audio, or video.</p>
+      <p><a href="https://play.google.com/store/apps/details?id=com.vijay.interactivelauncher" target="_blank">Google Play Store Link</a></p>
+    </div>
+
+    <div class="project">
+      <h3>iC Voice Assistant</h3>
+      <p><a href="https://play.google.com/store/apps/details?id=com.icasfeo.icassistant" target="_blank">Google Play Store Link</a></p>
+    </div>
+
+    <div class="project">
+      <h3>Open Source Contributions</h3>
+      <p><a href="https://github.com/vijaytanwar" target="_blank">GitHub Profile</a></p>
+    </div>
+  </section>
+
+  <section class="section" id="experience">
+    <h2>Work Experience</h2>
+
+    <div class="job">
+      <h4>Wipro Limited</h4>
+      <p><strong>Role:</strong> Associate Consultant L3</p>
+      <p><strong>Start Date:</strong> 10 Aug 2020</p>
+      <p><strong>End Date:</strong> Present</p>
+    </div>
+
+    <div class="job">
+      <h4>Sapient Nitro</h4>
+      <p><strong>Role:</strong> Senior Associate Developer</p>
+      <p><strong>Start Date:</strong> 03 Oct 2016</p>
+      <p><strong>End Date:</strong> 05 Aug 2020</p>
+    </div>
+
+    <div class="job">
+      <h4>Avizva Solution</h4>
+      <p><strong>Role:</strong> Associate Level 2</p>
+      <p><strong>Start Date:</strong> 01 March 2016</p>
+      <p><strong>End Date:</strong> 29 Aug 2016</p>
+    </div>
+
+    <div class="job">
+      <h4>Nagarro Software Pvt Ltd</h4>
+      <p><strong>Role:</strong> Sr. Associate Software Engineer</p>
+      <p><strong>Start Date:</strong> 13 May 2013</p>
+      <p><strong>End Date:</strong> 24 Dec 2015</p>
+    </div>
+
+    <div class="job">
+      <h4>Chetu India Pvt Ltd</h4>
+      <p><strong>Role:</strong> Sr. Software Engineer</p>
+      <p><strong>Start Date:</strong> 17 Nov 2011</p>
+      <p><strong>End Date:</strong> 12 May 2013</p>
+    </div>
+
+    <div class="job">
+      <h4>Computel Software Solutions</h4>
+      <p><strong>Role:</strong> .NET Developer</p>
+      <p><strong>Start Date:</strong> 11 Feb 2011</p>
+      <p><strong>End Date:</strong> 16 Nov 2011</p>
+    </div>
+  </section>
+
+  <section class="section" id="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div class="skill-category">
+        <strong>Backend Frameworks</strong>
+        <p>Node, Next.js, Express, ASP.NET Web Forms, MVC, Web API, WCF services, REST services, Golang Beego, Google Cloud Functions, Microsoft Azure Functions</p>
+      </div>
+      <div class="skill-category">
+        <strong>Languages</strong>
+        <p>C#, Java, JavaScript, GoLang</p>
+      </div>
+      <div class="skill-category">
+        <strong>Frontend Technologies</strong>
+        <p>ReactJS, Redux, Saga, HTML5, CSS3, jQuery, KnockoutJS, RequireJS, Backbone, Handlebars, AngularJS, Bootstrap</p>
+      </div>
+      <div class="skill-category">
+        <strong>ORM</strong>
+        <p>Linq, Entity Framework</p>
+      </div>
+      <div class="skill-category">
+        <strong>Testing Frameworks</strong>
+        <p>NUnit, Microsoft Test Project</p>
+      </div>
+      <div class="skill-category">
+        <strong>Databases</strong>
+        <p>MS SQL Server, Google Realtime Database, Redis</p>
+      </div>
+      <div class="skill-category">
+        <strong>Package Managers</strong>
+        <p>NuGet, NPM, Bower, Yarn</p>
+      </div>
+      <div class="skill-category">
+        <strong>Build Systems</strong>
+        <p>Grunt, Gulp, Webpack</p>
+      </div>
+      <div class="skill-category">
+        <strong>Third Party APIs</strong>
+        <p>Google Maps API, Facebook REST API</p>
+      </div>
+      <div class="skill-category">
+        <strong>Source Control</strong>
+        <p>TFS, SVN, GIT</p>
+      </div>
+      <div class="skill-category">
+        <strong>Software / SDK / Tools</strong>
+        <p>Ajax Toolkit, ADO.Net, Microsoft ARR, App Fabric, Office Interop Library, Mock, AutoMapper, N Inject, Autofac, NLog, iTextSharp, Microsoft Visio, Telerik User Controls, SQL Server Data Tools</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects-details">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Suncorp</h3>
+      <p><strong>Technologies:</strong> ReactJS, Redux, Saga, JavaScript, HTML, CSS, AWS, Jenkins</p>
+      <p><strong>Description:</strong> Redesigned an existing application using React, Redux, and Saga to improve user experience and performance. Set up project skeleton and tools, then developed key features including Quote schedule page.</p>
+      <p><strong>Responsibilities:</strong> Project setup, integration of testing utilities (Jest, Enzyme), GIT commit hooks, linting tools, feature development, requirement analysis, estimation, code review, build and deployment.</p>
+    </div>
+
+    <div class="project">
+      <h3>Ascena (Sapient Nitro)</h3>
+      <p><strong>Technologies:</strong> HTML, CSS, JavaScript, React, Redux, Node, Next.js, Webpack, Styled Components, Jest</p>
+      <p><strong>Description:</strong> Developed micro-application framework enabling independent microapps with reusable components. Explored Webpack DLL and environment variables for build and deployment.</p>
+      <p><strong>Responsibilities:</strong> Refactored existing application, upgraded styled components, designed brand-specific components, fixed build and test issues, wrote webpack plugin for dynamic imports, responsive layout strategies.</p>
+    </div>
+
+    <div class="project">
+      <h3>Ann Taylor (Sapient Nitro)</h3>
+      <p><strong>Technologies:</strong> Node, Next, Express.js, React, Redux, Thunk, JavaScript, jQuery, HTML5, CSS3, Masterpass.js, Payeezy.js</p>
+      <p><strong>Description:</strong> Added new payment methods for PCI compliance, updated SEO tags, fixed production issues, performance improvements.</p>
+      <p><strong>Responsibilities:</strong> Requirement analysis, estimates, unit tests, implemented Masterpass payment, service APIs, updated order pages, managed UI team.</p>
+    </div>
+
+    <div class="project">
+      <h3>Private Exchange (Avizva)</h3>
+      <p><strong>Technologies:</strong> DirectorJS, RequireJS, Bootstrap, JavaScript, HTML, CSS, Photoshop</p>
+      <p><strong>Description:</strong> Created responsive app for mobile, tablets, and desktop.</p>
+      <p><strong>Responsibilities:</strong> Requirement analysis, task breakdown, estimates, development, code review, unit and integration testing.</p>
+    </div>
+
+    <div class="project">
+      <h3>P51 (Nagarro)</h3>
+      <p><strong>Technologies:</strong> GoLang, AngularJS, RequireJS, jQuery, JavaScript, HTML5, CSS3, REST services</p>
+      <p><strong>Description:</strong> Developed SPA to manage electric devices via web portal with GoLang backend and AngularJS frontend.</p>
+      <p><strong>Responsibilities:</strong> Optimized load time, minimized Ajax calls, implemented caching, reusable components, global ajax interceptor, Agile methodology, code reviews.</p>
+    </div>
+
+    <div class="project">
+      <h3>ERMS - Enterprise Risk Management System (Nagarro)</h3>
+      <p><strong>Technologies:</strong> C#, ASP.NET, SQL Server, MVC 5.1, Web API, Entity Framework, AutoMapper, Autofac, NLog, jQuery, KnockoutJS, HTML5, CSS3, WCF REST services.</p>
+      <p><strong>Description:</strong> Developed an enterprise SAAS application with multiple independently sold/enhanced modules.</p>
+      <p><strong>Responsibilities:</strong> Requirement analysis, UI framework design, IOC extension implementation, SPA framework with KnockoutJS, bundling/minification solution, WCF REST service authorization, team workshops.</p>
+    </div>
+  </section>
+
+  <section class="section" id="certifications">
+    <h2>Training & Certifications</h2>
+    <p>C# Programming Certification (2008)</p>
+  </section>
+
+  <section class="section" id="education">
+    <h2>Academic Qualifications</h2>
+    <p>Bachelor of Technology, Computer Science and Engineering</p>
+    <p>Lovely Professional University, India</p>
+  </section>
+
+  <section class="section" id="interests">
+    <h2>Interests</h2>
+    <p>Learning trending technologies, listening to music, reading books, cruising my bike on rainy roads, and sometimes watching YouTube videos in office ('.')</p>
+  </section>
+
+  <footer>
+    <p>© Vijay Singh</p>
+  </footer>
+
+</div>
+
+</body>
 </html>
